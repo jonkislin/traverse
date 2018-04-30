@@ -1,4 +1,4 @@
-# Traversing the Trump Twitterverse: A social network analysis.   
+## Traversing the Trump Twitterverse: A social network analysis.   
 Repo and [blog post](https://jonkislin.github.io/2018/04/04/traverse.html) are works in progress.  
 Inspired by Tim Martin's [Promoting Positive Climate Change Conversations via Twitter](https://zeromh.github.io/climate_change_conversations/)
 
