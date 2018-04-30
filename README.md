@@ -1,5 +1,5 @@
 # Traversing the Trump Twitterverse: A social network analysis.   
-Repo and [blog post](https://jonkislin.github.io/2018/04/04/traverse.html) are works in progress.
+Repo and [blog post](https://jonkislin.github.io/2018/04/04/traverse.html) are works in progress.  
 Inspired by Tim Martin's [Promoting Positive Climate Change Conversations via Twitter](https://zeromh.github.io/climate_change_conversations/)
 
 __Question__: Given a large sample of tweets referencing "@realDonaldTrump," can we generate a graph network such that distinct [communities](http://senseable.mit.edu/community_detection/), [moderators](https://www.geeksforgeeks.org/betweenness-centrality-centrality-measure/), and [influencers](https://en.wikipedia.org/wiki/PageRank) are identifiable?  
@@ -11,4 +11,4 @@ __Conclusions__:
 * Influencers: news organizations
 * Moderators: also news organizations... and [Ted Lieu](https://lieu.house.gov)?
 
-_March to April 2018_
+_March - April 2018_
