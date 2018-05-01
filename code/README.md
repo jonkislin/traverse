@@ -1,5 +1,5 @@
 Project code.  
 Order to be run:  
-0. twitter_stream.py  
-1. tweet_proprocessing.ipynb
+1. twitter_stream.py  
+2. tweet_proprocessing.ipynb
 <WIP>
