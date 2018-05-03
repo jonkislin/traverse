@@ -11,6 +11,10 @@ __Conclusions__:
 * Influencers: news organizations
 * Moderators: also news organizations... and [Ted Lieu](https://lieu.house.gov)?
 
+__Visualizations__
+* Check out [package manager / code galaxies by Andrei Kashcha](https://github.com/anvaka/pm)
+* Web-hosted demo with current project data in works.
+
 __Machines used__:  
 * Macbook Pro 13" (2015)
 * Amazon c5.9xlarge EC2 instance (36 cores, 68 GB RAM) with Spark (single node)
