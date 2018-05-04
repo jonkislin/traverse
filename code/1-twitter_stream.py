@@ -11,7 +11,7 @@ from pymongo import MongoClient
 
 ## Query, placed at top of script for easy modification:
 ## (See final code block)
-QUERY = ['@realDonaldTrump'] # list of strings.
+QUERY = ['@realDonaldTrump'] # list of strings to track
 # boolean logic works within strings
 
 ## MongoDB Setup - assumes you have mongoDB installed
@@ -86,16 +86,19 @@ class myStreamListener(tweepy.StreamListener):
         except Exception as e:
             print(e)
 
-
 # Initialize the listener.
 # The 'wait_on_rate_limit=True' is needed to help with Twitter API rate limiting.
 listener = myStreamListener(api=tweepy.API(wait_on_rate_limit=True))
 streamer = tweepy.Stream(auth=auth, listener=listener)
 
-# Let's start it up:
+# Finally, let's start up our stream listener:
 WORDS = QUERY # search query from above
 print("Tracking: " + str(WORDS))
-time.sleep(1.25)
+time.sleep(1.25) # so our eyes can follow what's going on
 print("Modify this script file to change the query")
 time.sleep(2.0)
 streamer.filter(track=WORDS) # and away we go!
+
+## For fun/sanity/a challenge, try replacing/augmenting every print statement above with a log function (import logging)
+## streamer.filter() takes more arguments. What do they do? How might they be useful?
+
